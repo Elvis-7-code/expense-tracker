@@ -41,21 +41,21 @@ function ExpenseForm({ onAddExpense }) {
     });
   };
 
-//   return (
-//     <div className="expense-form-container">
-//       <h2>Add New Expense</h2>
-//       <form onSubmit={handleSubmit}>
-//         <div className="form-group">
-//           <label htmlFor="description">Description:</label>
-//           <input
-//             type="text"
-//             id="description"
-//             name="description"
-//             value={formData.description}
-//             onChange={handleChange}
-//             placeholder="Expense description"
-//           />
-//         </div>
+  return (
+    <div className="expense-form-container">
+      <h2>Add New Expense</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="description">Description:</label>
+          <input
+            type="text"
+            id="description"
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            placeholder="Expense description"
+          />
+        </div>
 
 //         <div className="form-group">
 //           <label htmlFor="amount">Amount:</label>
