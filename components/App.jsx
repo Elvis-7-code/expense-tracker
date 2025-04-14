@@ -70,18 +70,18 @@ function App() {
     setExpenses(expenses.filter(expense => expense.id !== id));
   };
 
-//   return (
-//     <div className="expense-tracker-container">
-//       <h1>Expense Tracker</h1>
-//       <div className="expense-tracker-content">
-//         <ExpenseForm onAddExpense={handleAddExpense} />
-//         <ExpenseList 
-//           expenses={expenses} 
-//           onDeleteExpense={handleDeleteExpense} 
-//         />
-//       </div>
-//     </div>
-//   )
-// }
+  return (
+    <div className="expense-tracker-container">
+      <h1>Expense Tracker</h1>
+      <div className="expense-tracker-content">
+        <ExpenseForm onAddExpense={handleAddExpense} />
+        <ExpenseList 
+          expenses={expenses} 
+          onDeleteExpense={handleDeleteExpense} 
+        />
+      </div>
+    </div>
+  )
+}
 
 export default App
