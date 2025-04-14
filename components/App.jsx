@@ -54,13 +54,13 @@ function App() {
         date: "2025-04-25",
         category: "Food"
     }
-    // {
-    //     id: 8,
-    //     description: "Medical expenses",
-    //     amount: 200.00,
-    //     date: "2025-04-30",
-    //     category: "Health"
-    // }
+    {
+        id: 8,
+        description: "Medical expenses",
+        amount: 200.00,
+        date: "2025-04-30",
+        category: "Health"
+    }
   ]);
 
 export default App
