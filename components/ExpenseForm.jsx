@@ -17,14 +17,14 @@ function ExpenseForm({ onAddExpense }) {
     });
   };
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     
-//     // Validate form
-//     if (!formData.description || !formData.amount || !formData.date || !formData.category) {
-//       alert('Please fill in all fields');
-//       return;
-//     }
+    // Validate form
+    if (!formData.description || !formData.amount || !formData.date || !formData.category) {
+      alert('Please fill in all fields');
+      return;
+    }
 
 //     // Create new expense object
 //     const newExpense = {
