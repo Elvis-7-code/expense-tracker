@@ -47,13 +47,13 @@ function App() {
         date: "2025-04-20",
         category: "Transportation"
     }
-    // {
-    //     id: 7,
-    //     description: "Dining out",
-    //     amount: 75.00,
-    //     date: "2025-04-25",
-    //     category: "Food"
-    // }
+    {
+        id: 7,
+        description: "Dining out",
+        amount: 75.00,
+        date: "2025-04-25",
+        category: "Food"
+    }
     // {
     //     id: 8,
     //     description: "Medical expenses",
