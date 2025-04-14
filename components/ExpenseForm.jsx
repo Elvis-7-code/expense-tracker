@@ -9,13 +9,13 @@ function ExpenseForm({ onAddExpense }) {
     category: ''
   });
 
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData({
-//       ...formData,
-//       [name]: value
-//     });
-//   };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
 
 //   const handleSubmit = (e) => {
 //     e.preventDefault();
