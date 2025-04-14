@@ -24,15 +24,14 @@ function ExpenseForm({ onAddExpense }) {
       alert('Please fill in all fields');
       return;
     }
-    
+
     const newExpense = {
       ...formData,
       amount: parseFloat(formData.amount),
       id: Date.now() // Simple way to generate unique IDs
     };
 
-//     // Pass to parent component
-//     onAddExpense(newExpense);
+    onAddExpense(newExpense);
 
 //     // Reset form
 //     setFormData({
