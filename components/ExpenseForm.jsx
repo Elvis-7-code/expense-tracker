@@ -20,18 +20,16 @@ function ExpenseForm({ onAddExpense }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Validate form
     if (!formData.description || !formData.amount || !formData.date || !formData.category) {
       alert('Please fill in all fields');
       return;
     }
-
-//     // Create new expense object
-//     const newExpense = {
-//       ...formData,
-//       amount: parseFloat(formData.amount),
-//       id: Date.now() // Simple way to generate unique IDs
-//     };
+    
+    const newExpense = {
+      ...formData,
+      amount: parseFloat(formData.amount),
+      id: Date.now() // Simple way to generate unique IDs
+    };
 
 //     // Pass to parent component
 //     onAddExpense(newExpense);
