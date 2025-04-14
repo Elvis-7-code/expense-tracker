@@ -40,13 +40,13 @@ function App() {
         date: "2025-04-15",
         category: "Health"
     }
-    // {
-    //     id: 6,
-    //     description: "Car insurance",
-    //     amount: 120.00,
-    //     date: "2025-04-20",
-    //     category: "Transportation"
-    // }
+    {
+        id: 6,
+        description: "Car insurance",
+        amount: 120.00,
+        date: "2025-04-20",
+        category: "Transportation"
+    }
     // {
     //     id: 7,
     //     description: "Dining out",
