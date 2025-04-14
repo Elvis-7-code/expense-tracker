@@ -33,13 +33,13 @@ function App() {
         date: "2025-04-10",
         category: "Utilities"
     }
-    // {
-    //     id: 5,
-    //     description: "Gym membership",
-    //     amount: 50.00,
-    //     date: "2025-04-15",
-    //     category: "Health"
-    // }
+    {
+        id: 5,
+        description: "Gym membership",
+        amount: 50.00,
+        date: "2025-04-15",
+        category: "Health"
+    }
     // {
     //     id: 6,
     //     description: "Car insurance",
