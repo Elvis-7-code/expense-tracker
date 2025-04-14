@@ -33,14 +33,13 @@ function ExpenseForm({ onAddExpense }) {
 
     onAddExpense(newExpense);
 
-//     // Reset form
-//     setFormData({
-//       description: '',
-//       amount: '',
-//       date: '',
-//       category: ''
-//     });
-//   };
+    setFormData({
+      description: '',
+      amount: '',
+      date: '',
+      category: ''
+    });
+  };
 
 //   return (
 //     <div className="expense-form-container">
