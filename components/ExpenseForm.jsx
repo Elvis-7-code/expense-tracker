@@ -7,7 +7,7 @@ function ExpenseForm({ onAddExpense }) {
     amount: '',
     date: '',
     category: ''
-  });
+  })};
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -74,37 +74,37 @@ function ExpenseForm({ onAddExpense }) {
 //         <div className="form-group">
 //           <label htmlFor="date">Date:</label>
 //           <input
-//             type="date"
-//             id="date"
-//             name="date"
-//             value={formData.date}
-//             onChange={handleChange}
-//           />
-//         </div>
+            type="date"
+            id="date"
+            name="date"
+            value={formData.date}
+            onChange={handleChange}
+          />
+        </div>
 
-//         <div className="form-group">
-//           <label htmlFor="category">Category:</label>
-//           <select
-//             id="category"
-//             name="category"
-//             value={formData.category}
-//             onChange={handleChange}
-//           >
-//             <option value="">Select a category</option>
-//             <option value="Food">Food</option>
-//             <option value="Transportation">Transportation</option>
-//             <option value="Housing">Housing</option>
-//             <option value="Utilities">Utilities</option>
-//             <option value="Entertainment">Entertainment</option>
-//             <option value="Healthcare">Healthcare</option>
-//             <option value="Other">Other</option>
-//           </select>
-//         </div>
+        <div className="form-group">
+          <label htmlFor="category">Category:</label>
+          <select
+            id="category"
+            name="category"
+            value={formData.category}
+            onChange={handleChange}
+          >
+            <option value="">Select a category</option>
+            <option value="Food">Food</option>
+            <option value="Transportation">Transportation</option>
+            <option value="Housing">Housing</option>
+            <option value="Utilities">Utilities</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
 
-//         <button type="submit">Add Expense</button>
-//       </form>
-//     </div>
-//   );
-// }
+        <button type="submit">Add Expense</button>
+      </form>
+    </div>
+  );
+}
 
 export default ExpenseForm;
